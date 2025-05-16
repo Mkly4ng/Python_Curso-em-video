@@ -1,0 +1,10 @@
+# Nome em maiusculo, minusculo, quantidade de letras do primeiro e ultimo nomes
+n = str(input('Qual é o seu nome? ')).strip()
+print('Seu nome todo em maiúsculo é {}' .format(n.upper()))
+print('Seu nome todo em minúsculo é {}' .format(n.lower()))
+#m = n.split()
+#o = ''.join(m)
+#print('Seu nome ao todo tem {} letras' .format(len(n)))
+print('Seu nome ao todo tem {} letras' .format(len(n) - n.count(' ')))
+#print('Seu primeiro nome tem {} letras' .format(len(n[0])))
+print('Seu primeiro nome tem {} letras' .format(n.find(' ')))
